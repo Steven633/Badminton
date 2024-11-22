@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 400px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team h2 {
+  color: #34495e;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ecf0f1;
+}
+
+.reset {
+  background-color: #e74c3c;
+  color: white;
+  margin-top: 20px;
+}
+
+.reset:hover {
+  background-color: #c0392b;
+}
