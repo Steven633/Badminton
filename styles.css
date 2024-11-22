@@ -18,6 +18,7 @@ body {
 h1 {
   color: #2c3e50;
   margin-bottom: 20px;
+  font-size: 24px; /* default font size */
 }
 
 .scoreboard {
@@ -32,10 +33,11 @@ h1 {
 
 .team h2 {
   color: #34495e;
+  font-size: 20px; /* default font size */
 }
 
 .score {
-  font-size: 36px;
+  font-size: 36px; /* default font size */
   font-weight: bold;
   margin: 10px 0;
 }
@@ -43,7 +45,7 @@ h1 {
 button {
   padding: 10px 20px;
   margin: 5px;
-  font-size: 16px;
+  font-size: 16px; /* default font size */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -61,4 +63,34 @@ button:hover {
 
 .reset:hover {
   background-color: #c0392b;
+}
+
+/* Media Query for iPad (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+      max-width: 600px; /* increase width */
+      padding: 30px;
+  }
+
+  h1 {
+      font-size: 32px; /* larger font size */
+  }
+
+  .team h2 {
+      font-size: 24px; /* larger font size */
+  }
+
+  .score {
+      font-size: 48px; /* larger font size */
+  }
+
+  button {
+      padding: 15px 30px; /* larger buttons */
+      font-size: 18px; /* larger font size */
+  }
+
+  .reset {
+      font-size: 18px;
+      padding: 15px 30px;
+  }
 }
